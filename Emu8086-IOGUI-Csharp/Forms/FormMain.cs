@@ -1,10 +1,7 @@
-﻿using Emu8086_IOGUI_Csharp.Interfaces;
-using Emu8086_IOGUI_Csharp.Repositories;
+﻿using Emu8086_IOGUI_Csharp.Repositories;
 using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Emu8086_IOGUI_Csharp
@@ -61,7 +58,7 @@ namespace Emu8086_IOGUI_Csharp
         internal DialogResult LoadBgFile() => LoadFile(openFileDialogBg);
         internal DialogResult LoadConfigFile() => LoadFile(openFileDialogLoad);
         internal DialogResult SaveConfigFile() => saveFileDialogSaveCfg.ShowDialog();
-        
+
 
         //Filepicker Filename
         internal string GetFilename(OpenFileDialog openFileDialog) => openFileDialog.FileName;

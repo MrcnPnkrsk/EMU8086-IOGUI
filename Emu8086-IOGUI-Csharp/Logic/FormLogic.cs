@@ -2,7 +2,6 @@
 using Emu8086_IOGUI_Csharp.Repositories;
 using System;
 using System.IO;
-using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -289,7 +288,7 @@ namespace Emu8086_IOGUI_Csharp
 
         private void DisposeVisuals()
         {
-            var visuals = formMain.GetVisuals();
+            System.Collections.Generic.IEnumerable<Control> visuals = formMain.GetVisuals();
             foreach (Button visual in visuals)
             {
                 formMain.RemoveVisual(visual);

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Emu8086_IOGUI_Csharp.Interfaces
+﻿namespace Emu8086_IOGUI_Csharp.Interfaces
 {
     internal interface IModeRepository
     {

@@ -1,8 +1,6 @@
 ﻿using Emu8086_IOGUI_Csharp.Interfaces;
 using System;
 using System.IO;
-using System.Text;
-using System.Windows.Forms;
 
 namespace Emu8086_IOGUI_Csharp.Repositories
 {

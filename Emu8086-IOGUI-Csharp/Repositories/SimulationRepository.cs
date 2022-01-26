@@ -19,7 +19,7 @@ namespace Emu8086_IOGUI_Csharp.Repositories
 
         public int READ_IO_WORD(long lPORT_NUM)
         {
-            mockIo.TryGetValue(lPORT_NUM,out int value);
+            mockIo.TryGetValue(lPORT_NUM, out int value);
             return value;
         }
 
