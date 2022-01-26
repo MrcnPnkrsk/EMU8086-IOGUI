@@ -1,0 +1,7 @@
+C:\Users\anonymous\AppData\Local\VirtualStore\emu8086.io
+D:\Development\EMU8086-IOGUI\Layout.png
+0x2D,30,300,detektor
+0x2B,250,260,boczne1
+0xB1,140,260,glowne1
+0x2B,140,120,boczne2
+0xB1,250,120,glowne2

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emu8086-IOGUI-Csharp", "Emu8086-IOGUI-Csharp\Emu8086-IOGUI-Csharp.csproj", "{14263B46-1DBA-40E2-9A56-BC55D4B2CCD7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14263B46-1DBA-40E2-9A56-BC55D4B2CCD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14263B46-1DBA-40E2-9A56-BC55D4B2CCD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14263B46-1DBA-40E2-9A56-BC55D4B2CCD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14263B46-1DBA-40E2-9A56-BC55D4B2CCD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12A60C93-9D7B-4E21-B6FB-D5B3892FE0AE}
+	EndGlobalSection
+EndGlobal
