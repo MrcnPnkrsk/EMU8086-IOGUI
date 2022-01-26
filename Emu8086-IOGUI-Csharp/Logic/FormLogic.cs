@@ -10,10 +10,8 @@ namespace Emu8086_IOGUI_Csharp
 {
     internal class FormLogic
     {
-        //Composition via Interface
         IModeRepository modeRepository;
 
-        //Access FormMain public methods via aggregation (even if FormLogic dies, FormMain persists)
         readonly FormMain formMain;
 
         internal FormLogic(FormMain formMain)

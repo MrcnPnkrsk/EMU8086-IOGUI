@@ -11,7 +11,6 @@ namespace Emu8086_IOGUI_Csharp
 {
     internal partial class FormMain : Form
     {
-        //In order to separate viewport from logic, inject FormMain via Aggregation into FormLogic and keep logic there
         private readonly FormLogic formLogic;
 
         internal FormMain()
